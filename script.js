@@ -15,7 +15,7 @@ onload = ()=> {
         button.addEventListener('click', function() { 
             /* A variable to track the drawing increments */
             n = 0, 
-            /* Time allocated for drawing the sqaure loader */
+            /* Interval speed for the animation */
             loadingInterval = setInterval(drawLoader, 60); 
             /* Style of the button when the loader is being drawn */
             this.textContent = 'Loading...';
